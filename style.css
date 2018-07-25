@@ -1,0 +1,42 @@
+.flexi{
+	display: flex;
+	flex-wrap: wrap;
+}
+li{
+	float: left;
+}
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.hide{
+
+}
+.floatright{
+	float: right;
+}
+.floatleft{
+	float: left;
+}
+.show{
+	display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .hide{
+    	display: none;
+    }
+    .show{
+    	display: flex;
+    }
+}
